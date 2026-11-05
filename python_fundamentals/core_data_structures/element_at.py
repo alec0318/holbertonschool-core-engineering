@@ -9,5 +9,3 @@ def element_at(my_list, idx):
 
 
 my_list = [1, 2, 3]
-
-print("Element at index 1 is {}".format(element_at(my_list, 1)))
