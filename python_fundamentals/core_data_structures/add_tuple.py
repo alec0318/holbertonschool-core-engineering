@@ -10,5 +10,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
     second = a1 + b1
 
     return (first, second)
-
-
