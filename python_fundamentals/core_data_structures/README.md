@@ -4,4 +4,4 @@
 3-print_matrix_integer.py: prints a matrix of integers
 4-add_tuple.py: adds two tuples
 5-common_elements.py: returns a set of common elements in two sets
-
+6-update_dictionary.py: updates or replaces a key or value in a dictionary
