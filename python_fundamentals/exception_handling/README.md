@@ -3,4 +3,5 @@
 2-safe_print_list_integers.py: print x amounts of elements in a list but check if they are integers
 3-safe_print_division.py: safely prints a division of two integers
 4-raise_exception.py: raises a TypeError
+5-raise_exception_msg.py: raises a NemeError with a message
 
