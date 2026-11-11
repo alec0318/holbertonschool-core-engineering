@@ -5,7 +5,7 @@
 class Square:
     """Constructor"""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Validation"""
 
         if not isinstance(size, int):
