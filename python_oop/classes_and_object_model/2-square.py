@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
+"""Clas is defined"""
+
+
 class Square:
+    """Constructor"""
+
     def __init__(self, size):
+        """Validation"""
+
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
 
