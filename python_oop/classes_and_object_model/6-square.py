@@ -55,6 +55,9 @@ class Square:
         else:
             self.__position = value
 
+    def area(self):
+        return self.__size * self.__size
+
     """My_print"""
     def my_print(self):
         print(self)
