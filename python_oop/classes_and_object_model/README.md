@@ -7,3 +7,4 @@
 6-square.py: adds __str__() to the square class
 
 1-rectangle.py: creates a class that prints the width and height of a rectangle
+2-rectangle.py: adds the perimeter and area methods to the rectangle class
