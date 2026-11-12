@@ -5,7 +5,7 @@
 class Rectangle:
 
     """Instance is created"""
-    def __init__(self, width, height):
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
@@ -49,7 +49,10 @@ class Rectangle:
 
     """perimeter method"""
     def perimeter(self):
-        return 2 * (self.__width + self.__height)
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        else:
+            return 2 * (self.__width + self.__height)
 
     """my_print method"""
     def my_print(self):
