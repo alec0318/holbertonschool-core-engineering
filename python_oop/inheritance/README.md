@@ -2,3 +2,4 @@
 base-geometry: represents a behavior that can be reused by multiple geometric shapes
 1-rectangle.py: creates a class rectangle that inherits from BaseGeometry
 2-rectangle.py: expands the Rectangle class to make the calculation and print
+1-square.py: creates class Square that inherits from Rectangle
