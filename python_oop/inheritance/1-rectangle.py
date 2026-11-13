@@ -1,20 +1,7 @@
 #!/usr/bin/env python3
-"""Parent class is created"""
+"""Parent class is imported"""
 
-
-class BaseGeometry:
-
-    """Area method"""
-    def area(self):
-        raise Exception("Area is not defined yet")
-
-    """Integer_validator method"""
-    def integer_validator(self, name, value):
-        if type(value) is not int:
-            raise TypeError(f"{name} must be an integer")
-        elif value <= 0:
-            raise ValueError(f"{name} must be greater than 0")
-
+BaseGeometry = __import__('base_geometry').BaseGeometry
 
 """Class Reactagle is created"""
 
