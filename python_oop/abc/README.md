@@ -1,0 +1,1 @@
+animals.py: creates a class Animal that inherits from ABC with subclasses Dog and Cat 
