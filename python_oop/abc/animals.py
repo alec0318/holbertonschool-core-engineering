@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 """Animal class is created"""
 
 
-def Animal(ABC):
+class Animal(ABC):
     """Sound method"""
     @abstractmethod
     def sound(self):
@@ -15,7 +15,7 @@ def Animal(ABC):
 """Dog subclass"""
 
 
-def Dog(Animal):
+class Dog(Animal):
     def sound(self):
         return "Bark"
 
@@ -23,6 +23,6 @@ def Dog(Animal):
 """Cat subclass"""
 
 
-def Cat(Animal):
+class Cat(Animal):
     def sound(self):
         return "Meow"
