@@ -43,7 +43,7 @@ class FlyingFish(Fish, Bird):
 
     """habitat method"""
     def habitat(self):
-        print("The flying fish lives both in the water and the sky!")
+        print("The flying fish lives both in water and the sky!")
 
 
 fish = FlyingFish()
