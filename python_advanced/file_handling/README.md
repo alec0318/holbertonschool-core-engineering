@@ -1,0 +1,1 @@
+read_file.py: creates a function that reads a file
